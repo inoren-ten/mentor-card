@@ -8,6 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        'cb': '651px',
+      },
+      aspectRatio: {
+        '5/8': '5/8',
+      },
+      fontSize: {
+        'name': 'calc(3vw + 3rem)',
+      },
+      boxShadow: {
+        'card': '0 0 2px rgba(255,255,255,.4),0 0 4px rgba(255,255,255,.4),0 0 6px rgba(255,255,255,.4), 0 0 8px rgba(255,255,255,.7)',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
